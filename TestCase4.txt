@@ -1,0 +1,5 @@
+ [Then(@"Screen ""(.*)"" displays")]
+        public void ThenScreenDisplays(string text)
+        {
+            text = TranslateText(text);
+           
